@@ -181,7 +181,7 @@ SHOPDESK використовує наступні таблиці:
 |cena_rozn13                                 |Double             |Довідкова ціна 13|
 |cena_rozn14                                 |Double             |Довідкова ціна 14|
 |cena_rozn15                                 |Double             |Довідкова ціна 15|
-|IsExciseMarkBarcode<br>RequiredForSaleOnShopdesk<br>(разом, без переносу)|Boolean            |Вимагати на касі введення штрих-коду акцизної марки (назва поля не має переносів)|
+|IsExciseMarkBarcode<br>RequiredForSaleOnShopdesk<br>(разом, без переносу)|Boolean            |Вимагати на касі введення штрих-коду акцизної марки (назва поля **IsExciseMarkBarcodeRequiredForSaleOnShopdesk** не має переносів)|
 |UomScale                                    |Double             |Крок одиниці виміру. У чек не можна буде додати кількість, не кратну цьому кроці. Для штучних товарів слід встановлювати 1, для вагових 0.001|
 |StartSaleTime                               |DateTime           |Час початку періоду, протягом якого продаж товара дозволено|
 |EndSaleTime                                 |DateTime           |Час кінця періоду, протягом якого продаж товара дозволено|
